@@ -13,7 +13,7 @@
     
     <link rel="stylesheet" href="/css/fancybox/fancybox.css" />
     <link rel="stylesheet" href="/css/juxtapose/juxtapose.css">
-    <link rel="stylesheet" href="/css/cliredent.css?1731852715" integrity="sha512-suUJVvw8/Otv9ThXtUjjj/Pq0pBGIULwuGK4vM6ulD2gkfUiVDS3Y5pCtZwQwcb8/SnHRW&#43;FAlsx/2BsPrL5sw==">
+    <link rel="stylesheet" href="/css/cliredent.css?1731863969" integrity="sha512-suUJVvw8/Otv9ThXtUjjj/Pq0pBGIULwuGK4vM6ulD2gkfUiVDS3Y5pCtZwQwcb8/SnHRW&#43;FAlsx/2BsPrL5sw==">
     
     
 
@@ -25,6 +25,16 @@
   <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.cliredent.com/img/home/og_image_home.jpg">
 
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KNSLXJLVS"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-3KNSLXJLVS');
+    </script>
 
 </head>
 <body>
@@ -540,14 +550,14 @@
             
             on: {
                 "*": (fancybox, eventName) => {
-                    console.log(`Fancybox eventName: ${eventName}`);
+                    
                 },
                 "init": (fancybox, eventName) => {
                     
                     document.querySelectorAll("nav")[0].style.display = "none";
                 },
                 "destroy": (fancybox, eventName) => {
-                    console.log(`destroy --> Fancybox eventName: ${eventName}`);
+                    
                     document.querySelectorAll("nav")[0].style.display = "flex";
                 },
             }
@@ -563,7 +573,7 @@
             document.cookie = `cliredent_cookieconsent-banner-status=dismissed; expires=${cookie_expires.toUTCString()}; SameSite=None; Secure`;
             document.cookie = `cliredent_cookieconsent-user-consent=allow; expires=${cookie_expires.toUTCString()}; SameSite=None; Secure`;
 
-            console.log('cookie set!');
+            
             modalCliredentCookiesConsent.hide();
 
         });
@@ -571,7 +581,7 @@
         var cliredentCookieConsentDismissed = false;
         if (document.cookie.split(";").some((item) => {
             if ( item.includes("cliredent_cookieconsent-banner-status=dismissed") ) {
-                console.log('cookie consent was dissmissed, skipping...');
+                
                 cliredentCookieConsentDismissed = true;
             }
         }));
@@ -590,8 +600,8 @@
 
 <!-- Hugo version: 0.138.0 -->
 <!-- Hugo Environment: production -->
-<!-- Build time (Unix): 1731852715 -->
-<!-- Build time (ISO8601): 2024-11-17T15:11:55Z -->
+<!-- Build time (Unix): 1731863969 -->
+<!-- Build time (ISO8601): 2024-11-17T18:19:29Z -->
 
 
 
