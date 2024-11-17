@@ -1,0 +1,382 @@
+.cliredent--color-gray {
+    color: gray;
+}
+
+.cliredent--color-white {
+    color: white;
+}
+
+.cliredent--color-primary {
+    color: #009B40;
+}
+
+.cliredent-section {
+    margin-top: 50px;
+}
+
+.cliredent-shape-bottom svg{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(250% + 1.3px);
+    height: 130px;
+}
+
+.cliredent-section__container--fluid {
+    margin-top: 50px;
+    padding: 50px 25px;
+    background-color: #F8F8F8;
+}
+
+.cliredent-section__heading2 {
+    color: #009B40;
+    font-weight: 600;
+    font-size: 2.3em;
+    line-height: 1.2em;
+}
+
+.cliredent-section__heading3 {
+    color: #009B40;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.cliredent-section__p--gray {
+    color: gray;
+    margin-top: 25px;
+    max-width: 1250px;
+}
+
+
+.cliredent-section__p--gray2 {
+    color: gray;
+}
+
+/*
+.cliredent__mt-1 {
+    margin-top: 1em;
+}
+
+.cliredent__mt-2 {
+    margin-top: 2em;
+}
+*/
+
+/*
+nav.navbar .nav-item a.nav-link {
+    color: gray;
+}
+*/
+
+/*
+.nav-link.cliredent-active {
+    color: #009B40;
+}
+*/
+li.nav-item a.nav-link.cliredent-active {
+    color: #009B40;
+}
+
+.cliredent--background-overlay {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #009B40 26%, rgba(0, 0, 0, 0) 76%);
+    opacity: 0.59;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 500;
+}
+
+.cliredent--background-overlay-light {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #333333 0%, rgba(153, 153, 153, 0) 100%);
+    opacity: 0.4;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.cliredent--overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    /* background-color: #009b40; */
+    color: #fff; 
+    padding: 10px 20px; 
+    /* font-size: 20px; */
+    text-align: center;
+    /* font-weight: 500; */
+}
+
+/*
+.cliredent--home-slider {
+    width: 100%;
+}
+*/
+
+/*
+h1.cliredent--heading1__size {
+    font-size: 3em;
+    font-weight: 500;
+}
+
+h2.cliredent--heading2__size {
+    line-height: 1.2;
+    font-weight: 300;
+}
+*/
+
+/*
+.cliredent--heading1__container {
+    position: absolute;
+    display: block;
+    z-index: 1100;
+    color: white;
+    top: 30%;    
+    padding: 0 calc(100% /8);
+    width: 50%;
+}
+*/
+
+/* Nosotros -- Start */
+.cliredent__h2--size {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: white;
+}
+
+.cliredent__p--size {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: white;
+}
+
+.cliredent__p--size-medium {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+/* Nosotros -- End */
+
+@media (max-width: 767px) {
+
+    /* Nosotros -- Start */
+
+    .cliredent__h2--size {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .cliredent__p--size {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;      
+    }
+
+    .cliredent__p--size-medium {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;  
+    }
+
+    .cliredent-shape-bottom svg{
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: calc(250% + 1.3px);
+        height: 67px;
+    }
+
+    /* Nosotros -- End */
+
+    /*
+    .cliredent--home-slider {2
+        min-height: 500px;
+    }
+    h1.cliredent--heading1__size {
+        font-size: 2.5em;
+        width: 50%;
+    }
+
+    h2.cliredent--heading2__size {
+        line-height: 1.2;
+        font-weight: 300;
+        width: 50%;
+    }    
+
+    .cliredent--heading1__container {
+        position: absolute;
+        display: block;
+        z-index: 1100;
+        color: white;
+        top: 10%;
+        padding: 0px 50px;
+        width: 100%;
+    }
+    */
+
+}
+
+/*
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+*/
+
+ul.cliredent--margin-menu > li {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.cliredent--btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #009B40;
+    --bs-btn-border-color: #009B40;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #157347;
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #146c43;
+    --bs-btn-active-border-color: #13653f;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #009B40;
+    --bs-btn-disabled-border-color: #009B40;
+    /* font-size: 14px; */
+}
+
+.cliredent--main-img__height {
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}  
+
+@media (max-width: 767px) {
+    .cliredent--main-img__height {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }  
+}
+
+/* Begin: Casos clínicos / Noticias Contents */
+
+div.cliredent--article-content > p, 
+div.cliredent--article-content > ul li,
+div.cliredent--article-content > ol li {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: gray;
+}
+
+div.cliredent--article-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.cliredent--article-content h2 {
+    color: #009B40;
+}
+
+
+.cliredent-text__primary-color {
+    color: #009B40;
+}
+
+div.cliredent--article-content p > a {
+    color: #009B40;
+    text-decoration: none;
+}
+
+/* End: Casos clínicos / Noticias Contents */
+
+/* Begin: Servicios */
+.cliredent__box1--padding {
+    padding: 2rem;
+}
+.cliredent--services-article--text p,
+.cliredent--services-article--text ul li {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+/* End: Servicios */
+
+/* +-----------------------------------------------------------+ */
+
+/* Begin: Contacto */
+.cliredent--mh-500 {
+    min-height: 500px;
+}
+/* End: Contacto */
+
+/* +-----------------------------------------------------------+ */
+
+/* Begin: Promos */
+
+.cliredent--img-promo-animation {
+    transition: transform 0.3s ease-in-out;
+}
+.cliredent--img-promo-animation:hover {
+    transform: scale(1.05);
+}
+
+.cliredent__promos-box--padding {
+    padding: 3rem;
+}
+
+.cliredent__promos-box--bg-gray {
+    background-color: #F8F8F8;
+}
+
+.cliredent__promo-box-bg-green {
+    background-color: #009b40;
+}
+
+.cliredent__promo-box-bg-green p {
+    color: white;
+}
+
+.cliredent__promo-box-btn-cta-bg-white {
+    background-color: white;
+    font-weight: 500;
+    padding: 1rem;
+}
+.cliredent__promo-box-btn-cta-bg-white:hover {
+    background-color: white;
+}
+
+/* End: Promos */
+
+/* Begin: Aviso Legal */
+
+.cliredent-section__anchor-default {
+    text-decoration: none;
+    color: #009B40
+}
+
+.cliredent-section__ul-green {
+    list-style: none;
+    list-style-position: inside;
+    padding-left: 0;
+    color: gray;
+}
+
+.cliredent--color-green {
+    color: #009B40
+}
+
+/* End: Aviso Legal */
